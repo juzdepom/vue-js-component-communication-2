@@ -6,9 +6,6 @@ export const eventBus = new Vue({
     showDetails(server){
       this.$emit('showDetails',server);
     },
-    setStatus(status){
-      this.$emit('setStatus', status);
-    }
   }
 });
 
